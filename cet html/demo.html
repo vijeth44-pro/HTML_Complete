@@ -3,76 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cet Basics</title>
+    <title>Practice Sheet</title>
     <style>
-        p{
-            font-size: larger;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            color: #1f2d3d;
+            margin: 20px;
         }
-        h1{
-            color: blue;
+
+        h1 {
+            color: #0b6e4f;
         }
-        img{
+
+        h2 {
+            color: #174ea6;
+        }
+
+        .box {
+            background-color: white;
+            border: 1px solid #cdd9e5;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 220px;
             border-radius: 10px;
         }
-        .n{
-            color: aqua;
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: left;
+        }
+
+        button {
+            background-color: #0b6e4f;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
-    <h1>Choco</h1>
-<p><b>My name is vijeth</b></p>
-<p>Sule Munde</p>
-<p>W3Schools is the world's largest web developer site. We are on a quest to make learning available to everyone - everywhere. 
-<hr>For over 20 years, we’ve provided free tutorials and hands-on coding exercises in HTML, CSS, JavaScript, Python, 
-<hr>SQL, and more. Millions of students, teachers, and developers use W3Schools to build skills and grow their knowledge. Start coding today with W3Schools.</p>
+    <h1>My Daily Practice Sheet</h1>
+    <p><b>Name:</b> Vijeth</p>
+    <p>This page is a simple HTML practice sheet, but the theme is a small daily progress tracker.</p>
 
-10<sup>2</sup><br>
-10<sub>2</sub><br>
-<img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg" alt="gand mari" loading="lazy">
-<table border ="1">
-    <tr>
-        <th>SL NO</th>
-        <th>cricketer</th>
-    </tr>
+    <div class="box">
+        <h2>Today's Goal</h2>
+        <p>Learn something small in HTML, CSS, and typing practice every day.</p>
+        <p>Formula example: 10<sup>2</sup> = 100</p>
+        <p>Water formula: H<sub>2</sub>O</p>
+    </div>
 
-    <tr>
-        <td>1</td>
-        <td>rahul dravid</td>
-    </tr>
+    <div class="box">
+        <h2>Practice Image</h2>
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80" alt="Laptop on desk">
+    </div>
 
-    <tr>
-        <td>2</td>
-        <td>Dhoni</td>
-    </tr>
-</table>
-<ol>
-    <li>apple</li>
-    <li>orange</li>
-</ol>
-<ol type="I">
-    <li>robsa</li>
-    <li>chikko</li>
-</ol>
-<a href="https://www.keybr.com/">keybr</a>
-<form>
-    <h3 class="n">Enter you full name:</h3>
-    <input type="text" placeholder="enter your fname"><br>
-    <h3>Enter you last name:</h3>
-    <input type="text" placeholder="enter your lname"><br>
+    <div class="box">
+        <h2>Skills I Practiced</h2>
+        <table>
+            <tr>
+                <th>Sl No</th>
+                <th>Skill</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>HTML tags</td>
+                <td>Done</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Typing</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CSS basics</td>
+                <td>Done</td>
+            </tr>
+        </table>
+    </div>
 
-    <input type="checkbox" id="html" value="html">
-    <label for="html">HTML</label><br>
-    
-    <input type="checkbox" id="css" value="css">
-    <label for="css">CSS</label><br>
-    
-    <input type="checkbox" id="js" value="js">
-    <label for="js">JS</label><br>
-    
-    <input type="submit">
-<br>
-    <iframe src="/images/guchchi.JPG" frameborder="0" loading="lazy"></iframe>
-</form>
+    <div class="box">
+        <h2>Checklist</h2>
+        <ol>
+            <li>Open VS Code</li>
+            <li>Write HTML structure</li>
+            <li>Add CSS styling</li>
+        </ol>
+
+        <ul>
+            <li>Practice for 20 minutes</li>
+            <li>Take short notes</li>
+            <li>Repeat tomorrow</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Useful Link</h2>
+        <a href="https://www.keybr.com/" target="_blank">Go to Keybr for typing practice</a>
+    </div>
+
+    <div class="box">
+        <h2>Mini Form</h2>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" placeholder="Enter first name"><br><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" placeholder="Enter last name"><br><br>
+
+            <p>Select what you practiced:</p>
+            <input type="checkbox" id="html" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="typing" value="Typing">
+            <label for="typing">Typing</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
